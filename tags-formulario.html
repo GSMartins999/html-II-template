@@ -10,6 +10,28 @@
     <p>Uma tag <code>form</code> para começar</p>
     <p>Um label e um input aqui:</p>
     <p>E um botão para terminar!</p>
+    <form action="#"> <!-- o action serve para enviar o form para algum lugar, no caso o # envia para a mesma página-->
+        <label for="Nome">Nome:</label><br>
+        <input id="Nome" name="Nome" type="text"> <br><br> <!-- Como saber que esse input perntence ao label ? Pelo for. O for linka o label com o input pelo id, onde o for e o id recebem o mesmo nome.
+        (For significa "para")-->
+        <button type="submit" id="Nome" name="Botão-Nome" >Enviar</button><br>
+        <!-- O "name" serve para classificar o que é que está ali definido-->
+    <br>
+        <label for="Idade">Idade:</label><br>
+        <input id="Idade" name="Idade" type="number"><br><br>
+        <!--Os types servem para definir os tipos de cada input, text, email, senha, number, etc.-->
+        <button type="submit" id="Idade" name="Botão-Idade">Enviar</button>    
+    <br>
+        <label for="email">email:</label><br>
+        <input id="email" name="email" type="email"><br><br>
+        <!--Os types servem para definir os tipos de cada input, text, email, senha, number, etc.-->
+        <button type="submit" id="email" name="Botão-Email">Enviar</button>
 
+    <br>
+        <label for="senha">senha:</label><br>
+        <input id="senha" name="senha" type="password"><br><br>
+        <button type="submit" id="senha" name="Botão-Senha">Enviar</button>
+        <!-- O botão serve para enviar a informação -->
+    </form>
 </body>
 </html>

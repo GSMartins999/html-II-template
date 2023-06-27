@@ -9,16 +9,31 @@
 <body>
     <!--Link normal aqui-->
 
-    <p>Este p pode ser um link</p>
-    <span>Este span também!</span>
-    <p>Posso transformar só um trechinho do texto em link também!</p>
+    <a href="/home.html">Home</a>
+
+    <a href="home.html"><p>Este p pode ser um link</p></a>
+
+    <a href="home.html"><span>Este span também!</span></a>
+
+    <p>Posso transformar só um <a href="home.html">trechinho</a> do texto em link também!</p>
 
     <!--Tags de mídia-->
     <p>Vamos adicionar uma imagem aqui:</p>
 
+    <img src="./fixacao/media/pato.jpg" alt="pato" height="100px">
+
     <p>Um áudio aqui. </p>
+    <audio src="./fixacao/media/pato.mp3" controls> barulho de pato</audio> <!-- A parte escrita entre a abertura e fechamento das tags serve como o alt, para ler um valor caso o valor dentro da tag não possa ser lido -->
 
     <p>E um vídeo aqui</p>
+    <video src="./fixacao/media/pato.mp4" controls  height="200">vídeo de patos</video>
+
+    <!-- É assim que adicionamos vídeos do youtube nos projetos -->
+
+    <iframe  height="200" align-items="center" src="https://www.youtube.com/embed/l9tzw-abV_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe  height="200" src="https://www.youtube.com/embed/_b7jUVyOuDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 </body>
 </html>
